@@ -1,0 +1,47 @@
+.header{
+
+}
+
+.header h1{
+background-color: lightblue;
+font-size: 35px;
+text-align: center;
+}
+
+nav{
+    background-color: #202020 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: lightblue;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.leftBar{
+display: flex;
+float: left;
+flex-direction: column;
+border-right: 5px solid blue;
+}
+
+#aboutMeContent{
+flex: 1;
+display: inline-block;
+}
+
