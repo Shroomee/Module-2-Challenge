@@ -1,3 +1,7 @@
+h1{
+    font-size: 50px;
+}
+
 .header{
 
 }
@@ -33,15 +37,45 @@ nav{
     font-size: 25px;
 }
 
-.leftBar{
-display: flex;
-float: left;
-flex-direction: column;
-border-right: 5px solid blue;
+main{
+    display:flex;
+    justify-content: space-evenly;
+    border: solid green;
 }
 
-#aboutMeContent{
-flex: 1;
-display: inline-block;
+.aboutme {
+    flex: 1;
+    text-align: right;
+    border-left: solid black;
 }
 
+.aboutme p{
+    display: inline-block;
+    border: solid red;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid green;
+}
+
+.footer-links{
+    flex: 1;
+    text-align: center;
+    border-left: solid black;
+    justify-content: space-evenly;
+}
+
+.footer-links ul li{
+    display: flex;
+    align-items:center;
+    list-style: none;
+    display: inline-block;
+   border: solid red;
+   
+}
+
+.footer-links ul li a{
+
+}
