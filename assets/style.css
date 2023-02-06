@@ -1,7 +1,10 @@
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
+p{
+    font-size:larger ;
+}
 nav{
     height: 10em;
     width: 100%;
@@ -12,7 +15,7 @@ nav{
 
 .header h1{
 background-color: lightblue;
-font-size: 35px;
+font-size: 75px;
 text-align: center;
 }
 
@@ -38,32 +41,45 @@ text-align: center;
 .nav-links ul li a{
     color: lightblue;
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 main{
     display:flex;
     justify-content: space-evenly;
-    border: solid green;
+
 }
+
+.card1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1 .aboutme{
+    flex: 1 0 61%;
+    margin: 2px;
+}
+
+.card1 .aboutme p{
+    flex-basis: 40%;
+    border-left: solid black;
+    padding-left: 25px;
+}
+
 
 .aboutme {
-    flex: 1;
-    text-align: right;
-    border-left: solid black;
+    padding-left: 15px;
 }
 
-.aboutme p{
-    display: inline-block;
-    border: solid red;
-}
 
 footer {
     display: flex;
     justify-content: space-evenly;
-    border: solid green;
+   
 }
 
+.card3 footer h1{
+    padding-right: 45px;
+}
 .footer-links{
     flex: 1;
     text-align: center;
@@ -75,7 +91,7 @@ footer {
     display: flex;
     align-items:center;
     list-style: none;
-    display: inline-block;
+    display: inline;
    border: solid red;
    
 }
