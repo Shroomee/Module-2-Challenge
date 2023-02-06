@@ -2,8 +2,12 @@ h1{
     font-size: 50px;
 }
 
-.header{
-
+nav{
+    height: 10em;
+    width: 100%;
+    background-image: url(../assets/images/Bricks.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header h1{
@@ -12,7 +16,7 @@ font-size: 35px;
 text-align: center;
 }
 
-nav{
+.header{
     background-color: #202020 ;
     display: flex;
     justify-content: space-between;
