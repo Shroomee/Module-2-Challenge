@@ -88,12 +88,11 @@ footer {
 }
 
 .footer-links ul li{
-    display: flex;
-    align-items:center;
     list-style: none;
-    display: inline;
-   border: solid red;
-   
+    display: inline-block;
+    float: left;
+    font-size: 35px;
+    width: 20%;
 }
 
 .footer-links ul li a{
