@@ -1,100 +1,69 @@
-h1{
-    font-size: 40px;
-}
-
-p{
-    font-size:larger ;
-}
-nav{
-    height: 10em;
-    width: 100%;
-    background-image: url(../assets/images/Bricks.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.header h1{
-background-color: lightblue;
-font-size: 75px;
-text-align: center;
-}
-
-.header{
-    background-color: #202020 ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-links {
-    flex: 1;
-    text-align: right;
-}
-
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.nav-links ul li a{
-    color: lightblue;
-    text-decoration: underline;
-    font-size: 40px;
-}
-
-main{
-    display:flex;
-    justify-content: space-evenly;
-
-}
-
-.card1{
+/*header css*/
+header{
     display: flex;
     flex-wrap: wrap;
-}
-.card1 .aboutme{
-    flex: 1 0 61%;
-    margin: 2px;
-}
-
-.card1 .aboutme p{
-    flex-basis: 40%;
-    border-left: solid black;
-    padding-left: 25px;
-}
-
-
-.aboutme {
-    padding-left: 15px;
-}
-
-
-footer {
-    display: flex;
-    justify-content: space-evenly;
-   
-}
-
-.card3 footer h1{
-    padding-right: 45px;
-}
-.footer-links{
-    flex: 1;
-    text-align: center;
-    border-left: solid black;
-    justify-content: space-evenly;
-}
-
-.footer-links ul li{
+    justify-content: space-between;
     list-style: none;
-    display: inline-block;
-    float: left;
-    font-size: 35px;
-    width: 20%;
+    background-color: black;
 }
 
-.footer-links ul li a{
+header h1{
+    padding-left:45px;
+    
+}
 
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    font-size: xx-large;
+    padding: 10px 17px;
+    margin-top: 5px;
+    margin-bottom: 9px;
+}
+
+header a{
+    padding: 10px;
+    color: aquamarine;
+}
+
+.titleBackground{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: aquamarine;
+    color: black;
+}
+
+/*body css*/
+.aboutme{
+
+}
+.aboutmewrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.aboutme1{
+width: 80%;
+display: grid;
+grid-template-columns: 1fr repeat(1, 2fr);
+
+gap: 10px 10px;
+}
+.aboutmetitle{
+padding-top: 0px;
+font-size: 35px;
+grid-row: 1/ span 4;
+padding-right: 10px;
+text-align: right;
+border-right: 5px solid black;
+}
+.aboutmecontent p{
+font-size: larger;
 }
