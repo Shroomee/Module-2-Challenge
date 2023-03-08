@@ -3,7 +3,7 @@ This is a portfolio for Davis Scott which uses advanced css. It utilizes flexbox
 
 ## Screenshots
 
-<img src="./assets./images./image(1).png">
+<img src="./assets/images/image(1).png">
 
 ## Links
 github link:https://github.com/Shroomee/Module-2-Challenge
