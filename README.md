@@ -7,4 +7,4 @@ This is a portfolio for Davis Scott which uses advanced css. It utilizes flexbox
 
 ## Links
 github link:https://github.com/Shroomee/Module-2-Challenge
-deployed URL:
+deployed URL:https://shroomee.github.io/Module-2-Challenge/
