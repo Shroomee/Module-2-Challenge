@@ -1,15 +1,39 @@
 /*header css*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section{
+    padding: 60px;
+}
+
 header{
     display: flex;
+    background-color:gray;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
-    background-color: black;
+
 }
 
 header h1{
     padding-left:45px;
-    
+    color:black;
+    font-size: 34px;
+    background-color: aqua;
+}
+
+header a{
+    text-decoration: none;
+    padding: 10px;
+    color: aquamarine;
+}
+
+header nav{
+    margin-top: 7px;
 }
 
 header nav ul {
@@ -17,53 +41,232 @@ header nav ul {
     flex-wrap: wrap;
     align-items: center;
     list-style: none;
-    justify-content: flex-end;
 }
 
-header nav ul li{
+header nav ul li a{
     font-size: xx-large;
     padding: 10px 17px;
     margin-top: 5px;
     margin-bottom: 9px;
 }
 
-header a{
-    padding: 10px;
-    color: aquamarine;
+.hero{
+    background-image: url(./images/Bricks.jpg);
+    background-size: cover;
 }
 
-.titleBackground{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: aquamarine;
-    color: black;
+.hero h2{
+    font-size: 30px;
+    float: right;
+    
 }
 
-/*body css*/
 .aboutme{
-
-}
-.aboutmewrap{
+    background-color:brown;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
+    align-items: center;
 }
-.aboutme1{
-width: 80%;
-display: grid;
-grid-template-columns: 1fr repeat(1, 2fr);
 
-gap: 10px 10px;
-}
 .aboutmetitle{
-padding-top: 0px;
-font-size: 35px;
-grid-row: 1/ span 4;
-padding-right: 10px;
-text-align: right;
-border-right: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 40px;
+    color:white;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: black solid 5px;
 }
-.aboutmecontent p{
-font-size: larger;
+
+.aboutmecontent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
 }
+
+.aboutmecontent p {
+    line-height: 1.5;
+    color: white;
+    width: 80%;
+    padding: 0 15px 0 15px;
+    font-size: 25px;
+    text-align: center;
+
+}
+#work{
+    padding: 60px;
+}
+
+.work-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 35px;
+    color: white;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    height: 500px;
+    border-right: black solid 5px;
+    
+
+}
+
+.flexbox1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+   padding-left: 2%;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 100%;
+}
+
+.surf-report{
+    background-image: url(./images/Beach.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    border: darkblue solid 3px;
+    position: relative;
+}
+
+
+.flexbox1 p {
+    display: inline-block;
+    text-align: start;
+    background-color:gray ;
+    width: 50%;
+    position: absolute;
+    bottom: 10%;
+
+}
+
+.projects2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 200px;
+    
+}
+
+.ledwall{
+    background-image: url(./images/Beach.jpg);
+    background-size: cover;
+    width: 49%;
+    height: 300px;
+    border: darkblue solid 3px;
+    position: relative;
+}
+
+.projects2 p{
+    display: inline-block;
+    text-align: start;
+    background-color:gray ;
+    width: 50%;
+    position: absolute;
+    bottom: 10%;
+}
+
+.calculator{
+    background-image: url(./images/Beach.jpg);
+    background-size: cover;
+    width: 49%;
+    height: 300px;
+    border: darkblue solid 3px;
+    position: relative;
+}
+
+.pastel{
+    background-image: url(./images/Beach.jpg);
+    background-size: cover;
+    width: 49%;
+    height: 300px;
+    border: darkblue solid 3px;
+    position: relative;
+}
+
+.runbud{
+    background-image: url(./images/Beach.jpg);
+    background-size: cover;
+    width: 49%;
+    height: 300px;
+    border: darkblue solid 3px;
+    position: relative;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 30px;
+    color: white;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: black solid 5px ;
+}
+
+.footer-links{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+width: 90%;
+font-size: 30px;
+}
+
+/*hover*/
+.surf-report:hover{
+    cursor: pointer;
+    opacity: 50%;
+
+}
+
+.calculator:hover{
+    cursor: pointer;
+    opacity: 50%;
+
+}
+
+.ledwall:hover{
+    cursor: pointer;
+    opacity: 50%;
+
+}
+
+.pastel:hover{
+    cursor: pointer;
+    opacity: 50%;
+
+}
+
+.runbud:hover{
+    cursor: pointer;
+    opacity: 50%;
+
+}
+
+}
+
+
+
+
+/*body css*/
