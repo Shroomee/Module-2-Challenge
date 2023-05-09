@@ -52,6 +52,7 @@ header nav ul li a{
 
 .hero{
     background-image: url(./images/Bricks.jpg);
+    /* background-image: url("https://strain-finder-app.herokuapp.com"); */
     background-size: cover;
 }
 
