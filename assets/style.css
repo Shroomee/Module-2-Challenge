@@ -12,7 +12,7 @@ section{
 
 header{
     display: flex;
-    background-color:gray;
+    background-color:tan;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
@@ -21,15 +21,15 @@ header{
 
 header h1{
     padding-left:45px;
-    color:black;
+    color:white;
     font-size: 34px;
-    background-color: aqua;
+    background-color: tan;
 }
 
 header a{
     text-decoration: none;
     padding: 10px;
-    color: aquamarine;
+    color: white;
 }
 
 header nav{
@@ -63,7 +63,7 @@ header nav ul li a{
 }
 
 .aboutme{
-    background-color:brown;
+    background-color:tan;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -138,7 +138,7 @@ header nav ul li a{
 }
 
 .surf-report{
-    background-image: url(./images/Beach.jpg);
+    background-image: url(./images/myweek.jpg);
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -150,7 +150,7 @@ header nav ul li a{
 .flexbox1 p {
     display: inline-block;
     text-align: start;
-    background-color:gray ;
+    background-color:grey ;
     width: 50%;
     position: absolute;
     bottom: 10%;
@@ -169,7 +169,7 @@ header nav ul li a{
 }
 
 .ledwall{
-    background-image: url(./images/Beach.jpg);
+    background-image: url(./images/database.png);
     background-size: cover;
     width: 49%;
     height: 300px;
@@ -187,7 +187,7 @@ header nav ul li a{
 }
 
 .calculator{
-    background-image: url(./images/Beach.jpg);
+    background-image: url(./images/bar.jpg);
     background-size: cover;
     width: 49%;
     height: 300px;
@@ -265,7 +265,7 @@ font-size: 30px;
 
 }
 
-}
+
 
 
 
